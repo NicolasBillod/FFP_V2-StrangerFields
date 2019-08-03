@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d21a4287fb7eeb4e806168bd982b5e9, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  numLevel: 5
+  nameLevel: THEY ARE HERE
+  shipPosition: {x: 15, y: 8.64, z: 2}
+  targetPosition: {x: 8, y: 8.4, z: 17.5}
+  nbAttractive: 2
+  nbRepulsive: 1
+  attFFList:
+  - position: {x: 7, y: 8.64, z: 2}
+    intensity: -0.6
+    isRepulsive: 0
+  repFFList:
+  - position: {x: 17, y: 8.64, z: 17}
+    intensity: 0.5
+    isRepulsive: 1
+  foeList:
+  - position: {x: 3.298019, y: 8.64, z: 5.4483566}
+    rotation: {x: -0, y: -0.08715462, z: -0, w: 0.99619484}
+    fireIntensity: {x: 0.44316337, y: 0.07814167, z: 0}
+    angle: 10
+  bmList: []
+  obstacleList:
+  - position: {x: 10, y: 8.64, z: 13}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 0
+  - position: {x: 14, y: 8.64, z: 14}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 0
+  - position: {x: 9.5, y: 8.64, z: 10}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 1
+  - position: {x: 14, y: 8.64, z: 10}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 1

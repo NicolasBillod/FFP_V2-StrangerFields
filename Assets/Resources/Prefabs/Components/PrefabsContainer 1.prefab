@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1187092851432176}
+  m_IsPrefabParent: 1
+--- !u!1 &1187092851432176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4538466298018324}
+  - component: {fileID: 114715535108977084}
+  m_Layer: 17
+  m_Name: PrefabsContainer 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4538466298018324
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187092851432176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4, y: 8.64, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114715535108977084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187092851432176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c9022b488e6e34a8060857f5ada672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bHealthPrefab: {fileID: 1033291494972430, guid: 4f3e99f6406ef6e4b93f1991443613da,
+    type: 2}
+  bDamagePrefab: {fileID: 1089549077336462, guid: 09bdca6e9f33dbf4bab1267e61e7d233,
+    type: 2}
+  mHpEarthPrefab: {fileID: 1431759258405916, guid: 6236caf3d2517d74b8acf17faf212063,
+    type: 2}
+  mHpPlayerPrefab: {fileID: 1069609117620646, guid: c9546875f0dc290428ff9ff9b68ae7f6,
+    type: 2}
+  normalObstacle: {fileID: 1340242979403358, guid: 3d902a854123baa479605fa7ceb1717b,
+    type: 2}
+  breakableObstacle: {fileID: 1368318797081164, guid: d58aa1f71f97d034fa53e1a186d12ecd,
+    type: 2}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - bonus
+  - obstacle
+  - ShipTag
+  - EnemyShip
+  - Wall
+  - Field
+  - StarPictures
+  - UI
+  - Earth
+  - plan
+  - TutoTag
+  - FoeMissile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - UniformFieldLayer
+  - ShipLauncherLayer
+  - MissileLayer
+  - ForceFieldLayer
+  - EnemyWarpZoneLayer
+  - EnemyShipLayer
+  - EnemyMissileLayer
+  - AlliedWarpZoneLayer
+  - Wall
+  - Bonus
+  - BreakableObstacle
+  - Plan
+  - Obstacle
+  - Earth
+  - Minimap
+  - WorldAndMinimap
+  - Selectable
+  - HighPlane
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

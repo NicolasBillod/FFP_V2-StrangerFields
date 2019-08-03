@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 67fbe9717c84d5b47a393fcaee5c617a
+timeCreated: 1528368622
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _A_lens_sphere: {fileID: 2800000, guid: 94b70c27c8fd95b4dac50db33976fc4f, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

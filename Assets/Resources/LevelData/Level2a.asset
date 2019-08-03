@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d21a4287fb7eeb4e806168bd982b5e9, type: 3}
+  m_Name: Level2a
+  m_EditorClassIdentifier: 
+  numLevel: 2
+  shipPosition: {x: 1.4619607, y: 8.64, z: 1.4981203}
+  targetPosition: {x: 17.998981, y: 8.64, z: 15.220803}
+  nbAttractive: 0
+  nbRepulsive: 0
+  attFFList:
+  - position: {x: 11.533689, y: 8.64, z: 7.6491537}
+    intensity: -0.50167185
+    isRepulsive: 0
+  repFFList:
+  - position: {x: 19.25, y: 8.64, z: 0.98467183}
+    intensity: 0.35278377
+    isRepulsive: 1
+  - position: {x: 9.47326, y: 8.64, z: 9.4956}
+    intensity: 0.15155552
+    isRepulsive: 1
+  - position: {x: 10.71482, y: 8.64, z: 8.724381}
+    intensity: 0.22131819
+    isRepulsive: 1
+  foeList: []
+  bmList: []
+  obstacleList: []

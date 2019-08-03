@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d21a4287fb7eeb4e806168bd982b5e9, type: 3}
+  m_Name: Level6
+  m_EditorClassIdentifier: 
+  numLevel: 6
+  nameLevel: WARP
+  shipPosition: {x: 3.7974472, y: 8.64, z: 1.4618274}
+  targetPosition: {x: 18, y: 8.4, z: 10.653054}
+  nbAttractive: 2
+  nbRepulsive: 2
+  attFFList: []
+  repFFList:
+  - position: {x: 15.475008, y: 8.64, z: 15.983762}
+    intensity: 1
+    isRepulsive: 1
+  foeList:
+  - position: {x: 9.906789, y: 8.64, z: 14.616816}
+    rotation: {x: -0, y: 0.8659773, z: -0, w: 0.5000834}
+    fireIntensity: {x: -0.3, y: -0.5196152, z: 0}
+    angle: -120
+  bmList: []
+  obstacleList:
+  - position: {x: 14, y: 8.64, z: 4.75}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 0
+  - position: {x: 12.5, y: 8.64, z: 6.25}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 0
+  - position: {x: 11.8, y: 8.64, z: 8.2}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 0
+  - position: {x: 12, y: 8.64, z: 10.5}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isBreakable: 0
