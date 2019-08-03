@@ -1,29 +1,11 @@
-# README #
+# ForceFieldPotential (FFP) V2 - called "Stranger Fields"
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A Serious Game to help students learn about forces and potentials, developed on the Unity game engine in C# using an Entity-Component-System architectural pattern. It is a mobile game.
 
-### What is this repository for? ###
+To complete a level, you have to destroy the enemy planet and not lose your spaceship.
+In order to do so, you can fire missiles, change the initial launching power and the rotation of your ship. You also have to place force fields (sort of black holes and "white" holes) in the world to "guide" your missiles in the right direction. Be careful to not get hit by enemies, they recalculate a trajectory towards your ship everytime you fire.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+The development of the game started as a project for a course during my Master's Degree at UPMC (Pierre et Marie Curie University), Paris, in 2017-2018. Then, I continued to work on it with another team (with game designers and intern graphic artists) during my end of study internship.
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Nicolas Billod
